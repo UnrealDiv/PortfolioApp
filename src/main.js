@@ -63,7 +63,7 @@ let model;
 
   const light =new THREE.DirectionalLight(0xffffff,0.4);
   scene.add(light);
-  light.position.set(100,50,0);
+  light.position.set(70,50,0);
 
 
   const clock = new THREE.Clock();
