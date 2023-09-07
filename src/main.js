@@ -38,7 +38,7 @@ let model;
   const fov = 75; 
   const aspect = sizes.width / sizes.height;
   const near = 0.1; 
-  const far = 100;
+  const far = 300;
   const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
   scene.add(camera);
   camera.position.set(0, 15, 20);
