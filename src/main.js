@@ -14,7 +14,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 let model;
   const gltfLoader = new GLTFLoader();
   gltfLoader.load(
-    './portfolio5.glb', // URL of the GLB model file
+    './portfolio6.glb', // URL of the GLB model file
     (gltf) => {
       // This function will be called when the model is loaded successfully
       // 'gltf' is the loaded 3D model
