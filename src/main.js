@@ -3,6 +3,8 @@ import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
   
   // Get a reference to the container element that will hold our scene
+  const song = document.querySelector("#song");
+  song.volume = 0.4;
   const canvas = document.querySelector('.canvas');
   const scene = new THREE.Scene();
   const renderer = new THREE.WebGLRenderer({canvas:canvas});
