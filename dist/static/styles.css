@@ -44,7 +44,7 @@ audio::-webkit-media-controls-panel{
     top: 0;
     left: 0;
     z-index: 10;
-    color: white;
+    color: red;
     font-family: 'Dela Gothic One', cursive;
 
 }
